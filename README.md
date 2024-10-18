@@ -1,18 +1,19 @@
-# Assignment 2
+# Assignment 3
 ## Author
 Pastukhov Maksim Germanovich, группа 24.Б82-мм
 ## Contacts
-stXXXXXX@stdudent.spbu.ru
+st131119@student.spbu.ru
 ## Description
-Home assingment 2 - 
-2A -- programm open the binary file(bf.bin), then read it and reverse it, 
-in the end it writes reversed binary file in new file(tempbin.bin);
-2B -- calculator working with reverse Polish notation, (numbers are only positive).
-After every result or mistake you should call again(./calculus)
+Home assingment 3 - Transformers class hierarchy was made with 1 composition(FuelTank) and 1 association(Weapon), 
+3 child classes: 
+1.Predacon(Predatorcon.hpp,Predatorcon.cpp);
+2.Autobot(Autobot.hpp,Autobot.cpp);
+3.Decepticon(Decepticon.hpp,Decepticon.cpp)
+---Construktors and Destruktors was used 
+-File with tests is test-transformers.cpp
 ## Build
 make
 ## Run
-2A -- ./rbf
-2B -- ./calculus
+./runTests
 ## Clean
 make clean
