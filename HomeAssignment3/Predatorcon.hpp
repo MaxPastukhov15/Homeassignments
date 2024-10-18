@@ -15,6 +15,6 @@ public:
 	
 	//functions 
 	void hunt();
-	void transform() override;// переопределил из  класса Transformer
+	void transform() override;// redefine from class Transformer
 };
 #endif
