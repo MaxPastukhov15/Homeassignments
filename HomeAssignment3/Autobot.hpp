@@ -12,7 +12,7 @@ public:
 	
 	// functions
 	void repair();
-	void transform() override;// переопределил из  класса Transformer
+	void transform() override;// redifine from class Transformer
 };
 #endif
 
