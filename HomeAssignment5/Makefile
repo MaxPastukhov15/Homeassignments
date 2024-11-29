@@ -5,7 +5,8 @@ SOURCES = Autobot.cpp Decepticon.cpp Weapon.cpp transformer.cpp  test.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
 $(TARGET): $(OBJECTS)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(OBJECTS)
+	$(CXX) $(CXXFLAGS) -o $@ $^ -lgtest -lgtest_main -lpthread
+
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
@@ -14,4 +15,3 @@ clean:
 
 format:
 	astyle -A1 -s4 *.cpp *.hpp
- 
