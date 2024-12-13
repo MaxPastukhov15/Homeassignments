@@ -1,23 +1,8 @@
-# Assignment 4,5
+# Assignment 5,6
 ## Author
 Pastukhov Maksim Germanovich, группа 24.Б82-мм
 ## Contacts
 st131119@student.spbu.ru
-## Description HomeAssigment4
-Home assingment 4- Transformers class updated with:
-made operators in and out, 
-overload operators were made,
-remade makefile
-comparison operators 
-astyle is used in makefile
-+Upgraded test-transformers.cpp
-## Build
-make
-## Run
-./runTests
-## Clean
-make clean
-
 ## Description HomeAssignment5
 Home assingment 5 - based on classes from HomeAssignment 3;
 3 virtual methods(transform, openFire, ulta) was added; 
@@ -26,12 +11,27 @@ Calling these methods from an ancestor-typed pointer was tested;
 A vector of pointers to 9 objects of 3 of each type was created;
 Calling virtual methods in a loop was tested;
 astyle is used in makefile
+## made a google test!!!! 
 ## Build
 make
 ## Run
 ./run
 ## Clean
 make clean
+## Description HomeAssignment6 
+The template class was created(template.hpp).
+Partically specialized template classes was created(template.hpp).
+Three test classes was written(template_classes.hpp) 
+and they also face all requirments for function "bar" in them.
+google test(test.cpp) was written and have 8 tests
+(two on specialization,and on three classes where "bar" was checked on working correctly)
+## Build
+make
+## Run
+./run_test
+## Clean
+make clean
+
 
 
 make clean
